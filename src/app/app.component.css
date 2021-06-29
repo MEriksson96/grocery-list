@@ -1,0 +1,154 @@
+.shopping-list-container {
+    width: 40%;
+    margin: auto;
+    margin-top: 10%;
+    background-color: lightgrey;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.title {
+    color: orangered;
+    text-align: center;
+}
+
+.item-input {
+    width: 85%;
+}
+
+.input-and-btn {
+    display: flex;
+}
+
+.btn-add {
+    width: 15%;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.items-list {
+    max-height: 25rem;
+    overflow-y: auto;
+}
+
+.item {
+    background-color: white;
+    padding: 0.5rem;
+    border-left: 4px solid #157347;
+    border-right: 4px solid #157347;
+    margin-top: 0.5rem;
+}
+
+.item-info {
+    display: flex;
+    align-items: center;
+}
+
+.isCompleted {
+    text-decoration: line-through;
+    text-decoration-color: black;
+    text-decoration-thickness: 5px;
+  }
+
+  .number-of-items {
+      display: flex;
+      margin-right: 1.5rem;
+      font-size: 20px;
+  }
+  
+  .isNormal {
+      text-decoration: none;
+  }
+
+.item-name {
+    width: 80%;
+    color: black;
+}
+
+.item-complete-btn {
+    width: 20%;
+    font-weight: 900;
+}
+
+.item-handler {
+    font-size: 25px;
+}
+
+.item-handler:hover {
+    cursor: pointer;
+}
+
+.num-of-items {
+    font-weight: bold;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    width: 15%;
+    justify-content: space-between;
+}
+
+.errorMessage {
+    color: red;
+    font-weight: bold;
+}
+
+.errors {
+    margin-top: 5%;
+}
+
+/* Iphone 12 Pro */
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+    .shopping-list-container {
+        width: 100%;
+    }
+
+    .btns {
+        width: 18%;
+    }
+}
+
+/* Iphone 11 Pro, Iphone XS, Iphone X */
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    .shopping-list-container {
+        width: 100%;
+    }
+
+    .btns {
+        width: 18%;
+    }
+}
+
+/* Iphone 7, Iphone 6s, Iphone 6, IphoneSE 2nd gen, Iphone 8  */
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+    .shopping-list-container {
+        width: 100%;
+    }
+
+    .btns {
+        width: 18%;
+    }
+}
+
+/* Iphone 8 Plus, Iphone 7 Plus, Iphone 6s Plus */
+@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+    .shopping-list-container {
+        width: 100%;
+    }
+
+    .btns {
+        width: 18%;
+    }
+}
+
+/* Iphone 11 Pro Max, Iphone XR, iPhone XS Max */
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+    .shopping-list-container {
+        width: 100%;
+    }
+
+    .btns {
+        width: 18%;
+    }
+}
